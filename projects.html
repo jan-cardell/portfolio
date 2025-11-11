@@ -9,15 +9,29 @@
 <body class="antialiased">
   <header class="sticky top-0 bg-white/90 backdrop-blur border-b">
     <div class="max-w-5xl mx-auto flex items-center justify-between px-5 py-3">
-      <div class="font-semibold">
-        <a href="index.html" class="hover:underline">Jan Cardell</a>
-      </div>
-      <nav class="flex gap-4">
-        <a href="projects.html" class="text-blue-600 hover:underline">Projects</a>
-        <a href="contact.html" class="text-blue-600 hover:underline">Contact</a>
+      <!-- Logo + Name -->
+      <a href="index.html" class="flex items-center gap-2 font-semibold group">
+        <img src="images/logo.png" alt="Logo" class="h-14 w-auto">
+        <span class="text-black group-hover:text-[#113af5] transition-colors duration-200">
+          Jan Cardell
+        </span>
+      </a>
+  
+      <!-- Navigation -->
+      <nav class="flex gap-6">
+        <a href="projects.html" 
+           class="text-black hover:text-[#113af5] transition-colors duration-200">
+           Projects
+        </a>
+        <a href="contact.html" 
+           class="text-black hover:text-[#113af5] transition-colors duration-200">
+           Contact
+        </a>
       </nav>
     </div>
   </header>
+  
+  
 
   <main class="max-w-5xl mx-auto px-5 py-10">
     <h1 class="text-3xl font-bold mb-6">Projects</h1>
